@@ -1,0 +1,205 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: rgb(2, 2, 49);
+      color: #333;
+      box-sizing: border-box;
+    }
+    header {
+      display: flex;
+      justify-content: space-around;
+      color: white;
+      background-color:rgb(20, 20, 110);
+      width: 100%;
+      height: auto;
+      align-items: center;
+      padding-top: 5px;
+      position: fixed;
+    }
+  
+    nav {
+      display: flex;
+      margin-left: 400px;
+      flex: wrap;
+    }
+    nav a {
+      color: white;
+      padding: 18px 20px;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    nav a:hover {
+      background-color: #555;
+      box-shadow: 3px 3px 15px white;
+      transform: translateY(-3px);
+    } 
+   .firstSection {
+      display: flex;
+      justify-content: space-evenly;
+      padding: 5px;
+      background-image: url("image/freepik__adjust__27153.jpeg");
+      background-size: cover;
+      height: 690px;
+      align-items: center;
+   
+    }
+    .leftSection {
+      color: white;
+      width: 500px;
+      font-size: 2.5rem;
+      margin: 100px 0;
+      line-height: 4rem;
+    
+    }
+    .rightSection img {
+       width: 500px;
+       margin: 15px 0;
+       background-size: cover;
+       
+    }
+    span {
+      color: rgb(231, 56, 231);
+    }
+    hr {
+      width: 250px;
+      margin-left: 545px;
+      height: 5px;
+      background-color: white;
+      border-radius: 5px;
+      margin-top: 8px;
+    }
+    .secondSection, .thirdSection, .fourSection {
+      color: white;
+      width: 100%;
+      margin-top: 10px;
+      height: 640px;
+    }
+    .secondSection {
+      background-image: url("image/360_F_1368621760_59KKXeRIDdt3Kaatc89F08g2cspAeUxL.jpg");
+      background-size: cover;
+      border: 3px solid rgb(17, 17, 87);
+    }
+    .fourSection {
+        color: white;
+      width: 100%;
+      margin-top: 10px;
+      height: 570px;
+    }
+     h2 {
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 50px;
+      color: white;
+      margin-top: 90px;
+    }
+    .aboutSection, .serviceSection {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 40px;
+    }
+     .education, .skill, .goal, .uiDesign, .webDesign, .webDevelop {
+        width: 400px;
+        padding-top: 15px;
+        background-color: black; 
+        border-radius: 10px;
+        box-shadow: 1px 1px 3px 3.5px rgb(5, 5, 56);
+    } 
+   
+    .about-header {
+      font-size:38px ;
+      padding-left: 60px;
+      margin-bottom: 20px;
+    }
+     .aboutSection p {
+      font-size:20px ;
+      line-height: 40px;
+      padding: 20px;
+     }
+     h5 {
+      font-size: 20px;
+      padding: 14px;
+     }
+     .uiDesign img, .webDesign img , .webDevelop img {
+       background-size: cover;
+       width: 80px;
+       height: 80px;
+       margin-left: 60px;
+       margin-bottom: 20px;
+     }
+    h3 {
+      font-weight: 100;
+      font-size: 30px;
+      font-family:Arial, Helvetica, sans-serif;
+      margin-left: 50px;
+    }
+     .uiDesign p, .webDesign p , .webDevelop p {
+       padding: 20px;
+       line-height: 30px;
+     }
+        
+     .thirdSection {
+      background-image: url("image/360_F_214879686_R3HFJlk6WLr1kcdvy6Q9rtNASKN0BZBS.jpg");
+      background-size: cover;
+       border: 3px solid rgb(6, 6, 37);
+     }
+    .fourSection p {
+      text-align: center;
+      margin-top: 20px;
+      font-weight: -100;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+     .contactContainer{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      margin-top: 50px;
+  
+     }
+
+     .adress, .number, .email {
+      width: 300px;
+      height: 200px;
+      border-radius: 15px;
+     }
+
+     .adress img ,.number img , .email img  {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-left: 120px;
+      margin-top: 40px;
+     }
+     .adress h5, .number h5 , .email h5 {
+      text-align: center;
+      }
+  
+    footer {
+      background: rgb(24, 22, 22);
+      color: white;
+      padding: 10px;
+      margin-top: 165px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    } 
+    .iconSection a {
+      color: white;
+      margin-left: 30px;
+      text-decoration: none;
+      font-size:30px ;
+
+    }
+    .iconSection {
+      margin-left: 450px;
+      position: relative;
+      z-index: 1;
+    }
+   .iconSection :hover{
+      box-shadow: 3px 3px 15px white;
+      transform: translateY(-5px);
+   }
